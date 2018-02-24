@@ -1,11 +1,13 @@
 import React from 'react';
+import {Navbar, NavItem} from 'react-materialize';
 
 const NavBar = () => (
-    <div>
-       <h1>
-        NavBar!
-       </h1>
-    </div>
+  <div>
+    <Navbar brand='Chance' right>
+      <NavItem href='/gallery'>Gallery</NavItem>
+      <NavItem href='/'>Bio</NavItem>
+    </Navbar>
+  </div>
 );
 
 export default NavBar;
