@@ -1,37 +1,29 @@
-
-
 .flex-container {
     display: flex;
-}
-
-.Panel1 {
-    flex: 1;
-    /* padding-top: 30px;
-    padding-bottom: 30px; */
-    /* max-width: 800px;
-    min-width: 800px; */
-    padding: 0px;
-    margin-bottom: -6px;
-}
-
-.Panel2 {
-    flex: 2;
-    background-color: purple;
-    /* width: 100px;
-    height: 100px; */
-    /* padding-top: 30px;
-    padding-bottom: 30px; */
-}
-
-.Panel3 {
-    flex: 1;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    /* max-width: 800px;
-    min-width: 800px; */
 }
 
 .centerPanel {
     /* padding-top: 30px;
     padding-bottom: 30px; */
+}
+
+.Panel1 {
+    flex: 1;
+}
+
+.Panel2 {
+    flex: 2;
+    background-color: purple;
+}
+
+.Panel3 {
+    flex: 1;
+}
+
+#nikePhoto {
+    min-height: 100%;
+}
+
+#headPhonePhoto {
+    min-height: 100%;
 }
