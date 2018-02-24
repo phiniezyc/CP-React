@@ -4,7 +4,7 @@ import {Footer} from 'react-materialize';
 const FooterPanel = () => (
   <div>
     <Footer 
-      copyrights="©copyright 2017 Chance Phiniezy"
+      copyrights="© copyright 2018 Chance Phiniezy"
       
       links={
         <ul>

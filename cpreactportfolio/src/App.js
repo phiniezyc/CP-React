@@ -14,7 +14,7 @@ const App = () => (
       <div>
         <Navbar />
         <Switch>
-          <Route path="/gallery" component={GalleryPage} />
+          <Route path="/portfolio" component={GalleryPage} />
           <Route exact path="/" component={LandingPage} />
         </Switch>
         <FooterPanel />
