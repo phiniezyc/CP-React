@@ -11,7 +11,7 @@ import nbaMatch from './img/nbaMatch.png';
 
 
 const ProjectDisplays = () => (
-  <div>
+  <div className='container'>
     <div className='portfolioCard'>
       <Card
         header={<CardTitle reveal image={feedTheBumpPhoto} waves='light' />}
