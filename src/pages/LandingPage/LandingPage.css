@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+}
+
+.centerPanel {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Panel1 {
+    flex: 1;
+}
+
+.Panel2 {
+    flex: 2;
+    /* background-color: lightgray; */
+    background-color: black;
+}
+
+.Panel3 {
+    flex: 1;
+}
+
+.columnSection {
+    border: 5px solid white;
+}
+
+#nikePhoto {
+    min-height: 100%;
+}
+
+#headPhonePhoto {
+    min-height: 100%;
+}
