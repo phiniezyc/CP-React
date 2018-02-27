@@ -6,7 +6,7 @@ const NavBar = () => (
     <Navbar brand='Chance Phiniezy' left className='grey lighten-1' >
       <NavItem href='/'>Home</NavItem>
       <NavItem href='/portfolio'>Portfolio</NavItem>
-      <NavItem href='/'>Bio</NavItem>
+      <NavItem href='/bio'>Bio</NavItem>
     </Navbar>
   </div>
 );

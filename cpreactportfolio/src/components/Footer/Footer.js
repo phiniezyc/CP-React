@@ -16,8 +16,8 @@ const FooterPanel = () => (
   }
       className='example grey lighten-1'
     >
-      <h5 className="white-text">Footer Content</h5>
-      <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      <h4 className="white-text">Connect with Me:</h4>
+      
     </Footer>
   </div>
 );

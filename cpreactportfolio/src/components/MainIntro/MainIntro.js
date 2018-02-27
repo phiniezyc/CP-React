@@ -10,7 +10,7 @@ const MainIntro = () => (
     <img src={chancePic} alt="chancePic" className="circle responsive-img" id='chancePic' />
     <h4>Full-Stack Development</h4> 
     <Dropdown trigger={
-      <Button>Enter Here</Button>
+      <Button className='red darken-4'>Enter Here</Button>
 	}
     >
       <NavItem href="/portfolio"> Portfolio</NavItem>
