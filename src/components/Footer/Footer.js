@@ -1,18 +1,25 @@
 import React from 'react';
 import {Footer} from 'react-materialize';
 
+import './Footer.css';
+
 const FooterPanel = () => (
   <div>
     <Footer 
       copyrights="© copyright 2018 Chance Phiniezy"
       
       links={
-        <ul>
-          <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-          <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-          <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-          <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
-        </ul>
+        <div className="footer-social-icons">
+          
+          <ul className="social-icons">
+            <li><a href="https://twitter.com/philosophiezy" className="social-icon"> <i className="fa fa-twitter" /></a></li>
+            <li><a href="https://stackoverflow.com/users/8266061/optimus-prime-time?tab=profile" className="social-icon"> <i className="fa fa-stack-overflow" /></a></li>
+
+            <li><a href="https://github.com/phiniezyc" className="social-icon"> <i className="fa fa-github" /></a></li>
+          </ul>
+        </div>
+
+        
   }
       className='example grey lighten-1'
     >
