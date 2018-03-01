@@ -16,7 +16,20 @@ const ProjectDisplays = () => (
       <Card
         header={<CardTitle reveal image={feedTheBumpPhoto} waves='light' />}
         title="Feed the Bump"
-        reveal={<p>Feed the Bump is an online nutrition diary for pregnant women that combines existing research on prenatal nutrition with Nutritionix Database to provide helpful, accurate information for women seeking healthy pregnancies. </p> 
+        reveal={
+          <div>
+            <p>Feed the Bump is an online nutrition diary for pregnant women that combines existing research on prenatal nutrition with Nutritionix Database to provide helpful, accurate information for women seeking healthy pregnancies. </p> 
+            <ul>
+              <li>Node</li>
+              <li>React</li>
+              <li>Express</li>
+              <li>mongoDB</li>
+              <li>AuthO</li>
+              <li>React-Materialize</li>
+              <li>React</li>
+              <li>Nutritionix API</li>
+            </ul>
+          </div>
         }
       >
         <div>
@@ -33,7 +46,16 @@ const ProjectDisplays = () => (
       <Card
         header={<CardTitle reveal image={dateNight} waves='light' />}
         title="Date Night"
-        reveal={<p>An app focused on creating an evening of fun and food based on your wants or cravings flavor profile. The app then gives you a curated movie and a list of dinner ideas (which also includes a link to a full recipe) based on your flavor profile to top off your night! </p> 
+        reveal={
+          <div>
+            <p>An app focused on creating an evening of fun and food based on your wants or cravings flavor profile. The app then gives you a curated movie and a list of dinner ideas (which also includes a link to a full recipe) based on your flavor profile to top off your night! </p> 
+            <ul>
+              <li>JavaScript</li>
+              <li>JQuery</li>
+              <li>OMDB API</li>
+              <li>Yumly API</li>
+            </ul>
+          </div>
         }
       >
         
@@ -48,7 +70,16 @@ const ProjectDisplays = () => (
       <Card
         header={<CardTitle reveal image={nbaMatch} waves='light' />}
         title="NBA Match"
-        reveal={<p>A compatibility-based NBA star match (friend-finder) application. Takes in results from user surveys, then compares their answers with those from other users. The app displays the name and picture of the user with the best overall match. </p> 
+        reveal={
+          <div>
+            <p>A compatibility-based NBA star match (friend-finder) application. Takes in results from user surveys, then compares their answers with those from other users. The app displays the name and picture of the user with the best overall match. </p> 
+            <ul>
+              <li>Node</li>
+              <li>Express</li>
+              <li>JQuery</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
         }
       >
         <div>
@@ -65,7 +96,18 @@ const ProjectDisplays = () => (
       <Card
         header={<CardTitle reveal image={mongoScraper} waves='light' />}
         title="mongoScraper"
-        reveal={<p>Web application that scrapes sports websites and allows the user to add a note to the scraped material in mongoDB </p> 
+        reveal={
+          <div>
+            <p>Web application that scrapes sports websites and allows the user to add a note to the scraped material in mongoDB </p> 
+            <ul>
+              <li>Node</li>
+              <li>Express</li>
+              <li>mongoDB</li>
+              <li>Handlebars</li>
+              <li>Cheerio</li>
+              <li>Materialize</li>
+            </ul>
+          </div>
         }
       >
         <div>
@@ -82,7 +124,14 @@ const ProjectDisplays = () => (
       <Card
         header={<CardTitle reveal image={bamazon} waves='light' />}
         title="Bamazon"
-        reveal={<p>Amazon-like storefront command line app that uses MySQL to take orders and deplete stock from the store inventory. </p> 
+        reveal={
+          <div>
+            <p>Amazon-like storefront command line app that uses MySQL to take orders and deplete stock from the store inventory. </p> 
+            <ul>
+              <li>Node</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
         }
       >
         <div>
