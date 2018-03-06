@@ -11,6 +11,7 @@ const BioPage = () => (
         <Col  s={7}>
           <Card 
             horizontal
+            className='pictureDisplay'
             header={<CardTitle image={headShot}  />}
           >
             <div className='container'>
