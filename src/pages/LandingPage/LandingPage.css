@@ -27,6 +27,17 @@
     border: 5px solid white;
 }
 
+
+.box {
+    height: 80vh;
+    border: solid black 2px;
+}
+
+.icons {
+    margin: auto
+}
+
+
 #nikePhoto {
     min-height: 100%;
 }
