@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import './App.css';
 
 import Navbar from './components/Navbar/Navbar';
 import LandingPage from './pages/LandingPage/LandingPage';
 import GalleryPage from './pages/GalleryPage/GalleryPage';
 import FooterPanel from './components/Footer/Footer';
 import BioPage from './pages/BioPage/BioPage'
+import './App.css';
+
 
 
 const App = () => (
