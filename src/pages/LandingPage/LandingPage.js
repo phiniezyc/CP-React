@@ -22,11 +22,13 @@ const LandingPage = () => (
     </div>
     <Row >
       <Col s={6} className="box valign-wrapper ">
-        <Icon large className="icons ">mood</Icon>
+      <a href="/bio">
+        <Icon large className="icons black-text">mood</Icon>
+        </a>
       </Col>
       <Col s={6} className="box valign-wrapper">
         <a href="/portfolio">
-        <Icon large className="icons black-text">assignment</Icon> 
+          <Icon large className="icons black-text">assignment</Icon> 
         </a>
       </Col>
     </Row>
