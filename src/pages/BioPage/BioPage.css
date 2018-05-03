@@ -2,3 +2,7 @@
     clip-path: polygon(0% 0%,
     100% 3%, 98% 99%, 3% 93%);
 }
+
+.bioContent {
+    margin-top: 3%;
+}

@@ -4,34 +4,34 @@ import headShot from './Chance.Headshot.jpg';
 import './BioPage.css'
 
 const BioPage = () => (
-  <div className='container'>
-    <div className='container headShotDiv row'>
-      <div  className='container '>
-        <h3>About Me:</h3>
-        <Col  s={7}>
-          <Card 
-            horizontal
-            className='pictureDisplay'
-            header={<CardTitle image={headShot}  />}
-          >
-            <div className='container'>
-              <h5>Most Familiar:</h5>
-              <ul>
-                <li>Javascript, NodeJS, JQuery, Express</li>
-                <li>React, Redux, Handlebars</li>
-                <li>Git, Github, GitLab, CommandLine</li>
-                <li>MongoDB, MySQL, Mongoose, Serialize, Firebase</li>
-                <li>HTML, CSS, Bootstrap, Materialize, Semantic</li>
-              </ul>
-              <h5>Exposure:</h5>
-              <ul>
-                <li>Java</li>
-                <li>Processing</li>
-              </ul>
-            </div>
-          </Card>
-        </Col>
-      </div>
+  <div className='container bioContent'>
+    <div className='row'>
+      <Col  s={7}>
+        <Card 
+          horizontal
+          className='pictureDisplay'
+          header={<CardTitle image={headShot}  />}
+        >
+          <div className='container'>
+            <h5>Most Familiar:</h5>
+            <ul>
+              <li>Javascript, NodeJS, JQuery, Express</li>
+              <li>React, Redux, Handlebars</li>
+              <li>Git, Github, GitLab, CommandLine</li>
+              <li>MongoDB, MySQL, Mongoose, Serialize, Firebase</li>
+              <li>HTML, CSS, Bootstrap, Materialize, Semantic</li>
+            </ul>
+            <h5>Exposure:</h5>
+            <ul>
+              <li>Java</li>
+              <li>Processing</li>
+              <li>PHP</li>
+              <br/>
+            </ul>
+          </div>
+        </Card>
+      </Col>
+      
       <div className=''>
         <br />
         <p>Hi, I am Chance. Welcome to my portfolio collection. Here you will find my projects and other random thoughts running through my head.</p>
