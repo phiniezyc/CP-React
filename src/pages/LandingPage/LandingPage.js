@@ -25,7 +25,9 @@ const LandingPage = () => (
         <Icon large className="icons ">mood</Icon>
       </Col>
       <Col s={6} className="box valign-wrapper">
-        <Icon large className="icons ">mood</Icon>
+        <a href="/portfolio">
+        <Icon large className="icons black-text">assignment</Icon> 
+        </a>
       </Col>
     </Row>
   </div>

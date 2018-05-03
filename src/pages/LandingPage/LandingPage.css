@@ -37,6 +37,10 @@
     margin: auto
 }
 
+a {
+    margin: auto;
+}
+
 
 #nikePhoto {
     min-height: 100%;
