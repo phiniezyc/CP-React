@@ -26,7 +26,7 @@ const BioPage = () => (
               <li>Java</li>
               <li>Processing</li>
               <li>PHP</li>
-              <br/>
+              <br />
             </ul>
           </div>
         </Card>
