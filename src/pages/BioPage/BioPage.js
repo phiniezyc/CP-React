@@ -12,7 +12,7 @@ const BioPage = () => (
           className='pictureDisplay'
           header={<CardTitle image={headShot}  />}
         >
-          <div className='container'>
+          <div className='container flow-text'>
             <h5>Most Familiar:</h5>
             <ul>
               <li>Javascript, NodeJS, JQuery, Express</li>
@@ -32,7 +32,7 @@ const BioPage = () => (
         </Card>
       </Col>
       
-      <div className=''>
+      <div className='flow-text'>
         <br />
         <p>Hi, I am Chance. Welcome to my portfolio collection. Here you will find my projects and other random thoughts running through my head.</p>
         
