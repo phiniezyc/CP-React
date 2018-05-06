@@ -27,7 +27,7 @@ const LandingPage = () => (
       <Col s={6} className="offset-m3 container flow-text">
         <h1 className="center-align"> <strong> Chance Phiniezy </strong></h1>
         <Row>
-          <img src={personalPhoto} alt="personalPicture" className="responsive-img" />
+          <img src={personalPhoto} alt="personalPicture" className="responsive-img circle z-depth-5" />
         </Row>
     
         <h4 id="quoteHeading" className="center-align"> "Simplicity is the glory of expression."-Walt Whitman </h4>
