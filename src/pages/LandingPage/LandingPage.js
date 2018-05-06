@@ -6,10 +6,11 @@ import './LandingPage.css'
 import MainIntro from '../../components/MainIntro/MainIntro';
 import  nikePhoto from './xavier-teo-469050-unsplash.jpg';
 import headphonePhoto from './frank-septillion-208829-unsplash.jpg';
+import personalPhoto from './personalPhoto.jpg';
 
 const LandingPage = () => (
   <div>
-    <div className='flex-container centerPanel'>
+    {/* <div className='flex-container centerPanel'>
       <div className='Panel1 columnSection'>
         <img src={nikePhoto} alt="nikePhoto" className="responsive-img" id='nikePhoto' />
       </div>
@@ -20,10 +21,14 @@ const LandingPage = () => (
         <img src={headphonePhoto} alt="headphonePhoto" className="responsive-img" id='headPhonePhoto'  />
       </div>
     </div>
+    */}
 
     <Row>
       <Col s={6} className="offset-m3 container flow-text">
         <h1 className="center-align"> <strong> Chance Phiniezy </strong></h1>
+        <Row>
+          <img src={personalPhoto} alt="personalPicture" className="responsive-img" />
+        </Row>
     
         <h4 id="quoteHeading" className="center-align"> "Simplicity is the glory of expression."-Walt Whitman </h4>
       </Col>
