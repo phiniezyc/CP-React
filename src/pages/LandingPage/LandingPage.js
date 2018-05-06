@@ -20,6 +20,15 @@ const LandingPage = () => (
         <img src={headphonePhoto} alt="headphonePhoto" className="responsive-img" id='headPhonePhoto'  />
       </div>
     </div>
+
+    <Row>
+      <Col s={6} className="offset-m3 container flow-text">
+        <h1 className="center-align">Chance Phiniezy</h1>
+    
+        <h4 id="quoteHeading" className="center-align">Complex is Easy, Simple is Hard.</h4>
+      </Col>
+    </Row>
+    
     <Row >
       <Col s={6} className="box valign-wrapper z-depth-5">
         <a href="/bio">
