@@ -37,6 +37,14 @@
     margin: auto
 }
 
+.whiteText {
+    color: white;
+}
+
+.iconDiv {
+    margin-bottom: 0px;
+}
+
 a {
     margin: auto;
 }
@@ -53,4 +61,14 @@ a {
 #quoteHeading {
     margin: 1em 2em;
     
+}
+
+#photoDiv {
+    background-color: black;
+    margin-bottom: 0px;
+}
+
+#portfolioLinkIconSection {
+    background-color: black;
+
 }

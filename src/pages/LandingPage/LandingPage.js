@@ -23,26 +23,27 @@ const LandingPage = () => (
     </div>
     */}
 
-    <Row>
-      <Col s={6} className="offset-m3 container flow-text">
-        <h1 className="center-align"> <strong> Chance Phiniezy </strong></h1>
-        <Row>
+    <Row id="photoDiv">
+      <Col s={6}  className="offset-m3 container flow-text">
+        <h1 className="whiteText"> <strong> Chance </strong></h1>
+        
           <img src={personalPhoto} alt="personalPicture" className="responsive-img circle z-depth-5" />
-        </Row>
+
+          <h1 className="whiteText"> <strong> Phiniezy </strong></h1>
     
-        <h4 id="quoteHeading" className="center-align"> "Simplicity is the glory of expression."-Walt Whitman </h4>
+        <h4 id="quoteHeading" className="center-align whiteText"> "Simplicity is the glory of expression."-Walt Whitman </h4>
       </Col>
     </Row>
     
-    <Row >
+    <Row className="iconDiv">
       <Col s={6} className="box valign-wrapper z-depth-5">
         <a href="/bio">
-          <Icon large className="icons black-text">mood</Icon>
+          <Icon large className="icons black-text ">mood</Icon>
         </a>
       </Col>
-      <Col s={6} className="box valign-wrapper z-depth-5">
+      <Col s={6} id="portfolioLinkIconSection" className="box valign-wrapper z-depth-5">
         <a href="/portfolio">
-          <Icon large className="icons black-text">assignment</Icon> 
+          <Icon large className="icons white-text">assignment</Icon> 
         </a>
       </Col>
     </Row>
