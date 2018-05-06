@@ -23,9 +23,9 @@ const LandingPage = () => (
 
     <Row>
       <Col s={6} className="offset-m3 container flow-text">
-        <h1 className="center-align">Chance Phiniezy</h1>
+        <h1 className="center-align"> <strong> Chance Phiniezy </strong></h1>
     
-        <h4 id="quoteHeading" className="center-align">Complex is Easy, Simple is Hard.</h4>
+        <h4 id="quoteHeading" className="center-align"> "Simplicity is the glory of expression."-Walt Whitman </h4>
       </Col>
     </Row>
     
