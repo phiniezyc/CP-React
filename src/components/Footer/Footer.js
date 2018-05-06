@@ -5,7 +5,8 @@ import './Footer.css';
 
 const FooterPanel = () => (
   <div>
-    <Footer 
+    <Footer
+      
       copyrights="© copyright 2018 Chance Phiniezy"
       
       links={
@@ -21,9 +22,9 @@ const FooterPanel = () => (
 
         
   }
-      className='example grey lighten-1'
+      className='black'
     >
-      <h4 className="white-text">Connect with Me:</h4>
+      <h4 className="white-text ">Connect with Me:</h4>
       
     </Footer>
   </div>

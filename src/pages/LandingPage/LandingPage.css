@@ -41,8 +41,13 @@
     color: white;
 }
 
-.iconDiv {
-    margin-bottom: 0px;
+.iconsDiv {
+    margin: 100px;
+    
+}
+
+.namePhotoQuoteSection {
+    margin: 30px 50px;
 }
 
 a {
@@ -70,6 +75,6 @@ a {
 
 #portfolioLinkIconSection {
     background-color: black;
-
 }
+
 

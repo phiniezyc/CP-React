@@ -24,7 +24,7 @@ const LandingPage = () => (
     */}
 
     <Row id="photoDiv">
-      <Col s={6}  className="offset-m3 container flow-text">
+      <Col s={6}  className="offset-m3 container flow-text ">
         <h1 className="whiteText"> <strong> Chance </strong></h1>
         
           <img src={personalPhoto} alt="personalPicture" className="responsive-img circle z-depth-5" />
@@ -35,7 +35,7 @@ const LandingPage = () => (
       </Col>
     </Row>
     
-    <Row className="iconDiv">
+    <Row className="iconsDiv">
       <Col s={6} className="box valign-wrapper z-depth-5">
         <a href="/bio">
           <Icon large className="icons black-text ">mood</Icon>
