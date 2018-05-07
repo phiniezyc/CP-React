@@ -13,10 +13,10 @@ const FooterPanel = () => (
         <div className="footer-social-icons">
           
           <ul className="social-icons">
-            <li><a href="https://twitter.com/philosophiezy" className="social-icon"> <i className="fa fa-twitter" /></a></li>
-            <li><a href="https://stackoverflow.com/users/8266061/optimus-prime-time?tab=profile" className="social-icon"> <i className="fa fa-stack-overflow" /></a></li>
+            <li><a href="https://twitter.com/philosophiezy" className="social-icon"> <i className="fa fa-twitter social-icon-size" /></a></li>
+            <li><a href="https://stackoverflow.com/users/8266061/optimus-prime-time?tab=profile" className="social-icon"> <i className="fa fa-stack-overflow social-icon-size" /></a></li>
 
-            <li><a href="https://github.com/phiniezyc" className="social-icon"> <i className="fa fa-github" /></a></li>
+            <li><a href="https://github.com/phiniezyc" className="social-icon"> <i className="fa fa-github social-icon-size" /></a></li>
           </ul>
         </div>
 

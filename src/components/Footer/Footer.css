@@ -45,21 +45,29 @@ ul {
 
 .social-icon {
     color: #fff;
+    
 }
 
 ul.social-icons {
     margin-top: 10px;
+    
 }
 
 .social-icons li {
     vertical-align: top;
     display: inline;
-    height: 100px;
+    
 }
 
 .social-icons a {
     color: #fff;
     text-decoration: none;
+    
+}
+
+.social-icon-size {
+    width: 40px;
+    margin: 4px;
 }
 
 .fa-twitter {
