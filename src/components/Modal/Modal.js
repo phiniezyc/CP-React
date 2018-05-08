@@ -10,7 +10,7 @@ const ModalComponent = () => (
     <div >
       <Modal
         className='instruction'
-        header='Click on the Projects'
+        header='Click on Individual Projects'
         trigger={<Button className='red darken-4'>Click for Instructions</Button>}
       >
         <p>Click each project to reveal more information about the project and technology used. Click the buttons on each individual project to see a demo and the github code behind each project.</p>
