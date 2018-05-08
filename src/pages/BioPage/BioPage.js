@@ -34,11 +34,11 @@ const BioPage = () => (
       
       <div className='flow-text'>
         <br />
-        <p>Hi, I am Chance. Welcome to my portfolio collection. Here you will find my projects and other random thoughts running through my head.</p>
+        <p>Hi, I am Chance. Welcome to my portfolio. You will find some of my projects.</p>
         
         <p>Also serving as a lawyer, and former health care policy staffer, I have been fortunate to live in great cities across the United States, but have settled in my forever home (and hometown), Atlanta, GA.</p>
         
-        <p>A true ATLien, I am a long suffering fan of the Braves, Falcons, and Hawks. I do not believe in the Tooth Fairy but I do believe my choice of attire affects the performance of my teams on game days. Irrational superstition is a heck of a drug.</p>
+        <p>A true ATLien, I am a long suffering fan of the Braves, Falcons, and Hawks. I am weirdly supersticious, so you may find me in the same gear on game days. I have other clothes, I promise.</p>
         
         <p>If I am not working or attending a sporting event, I am probably listening to music.</p>
 
