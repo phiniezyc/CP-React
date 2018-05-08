@@ -7,11 +7,41 @@ import mongoScraper from './img/mongoScraper.png';
 import dateNight from './img/dateNight.png';
 import nbaMatch from './img/nbaMatch.png';
 
-
+import theSpotImage from '../PortfolioCard/img/theSpot.png'
 
 
 const ProjectDisplays = () => (
   <div className='container'>
+    <div className='portfolioCard'>
+      <Card
+        header={<CardTitle reveal image={theSpotImage} waves='light' />}
+        title="The Spots"
+        reveal={
+          <div>
+            <p>The Spots is an application that allows users to sign up to add restaurants/bars to review, similar to Yelp. Once a Spot is added, other users can comment on the Spot and add their own thoughts. </p> 
+            <ul>
+              <li>JavaScript</li>
+              <li>Node</li>
+              <li>Handlebars</li>
+              <li>Materialize</li>
+              <li>Passport</li>
+              <li>Connect-Flash</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+            </ul>
+          </div>
+        }
+      >
+        <div>
+          <Button className='indigo button' waves='light' node='a' href='https://fathomless-mesa-78444.herokuapp.com/'> Demo </Button>
+        </div>
+        
+        <div>
+          <Button className='blue button' waves='light' node='a' href='https://github.com/phiniezyc/The_Spot'> Code </Button>
+        </div>
+      </Card>
+    </div>
+
     <div className='portfolioCard'>
       <Card
         header={<CardTitle reveal image={feedTheBumpPhoto} waves='light' />}
